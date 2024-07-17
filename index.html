@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="portfolio-icon" href="portfolio.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" data-text="Home">Home</a></li>
+                <li><a href="#about" data-text="About">About</a></li>
+                <li><a href="#portfolio" data-text="Portfolio">Portfolio</a></li>
+                <li><a href="#contact" data-text="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    
+    <section id="home" class="section">
+        <div class="content home-content">
+            <div class="intro-text">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1>Welcome to My Portfolio</h1>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </section>
+    
+    
+        <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="myself.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Mark Lawrence Bigata and I'm a <span class="typing-2"></span></div>
+                    <p>
+                        Graduate Science, Technology, Engineering, and Mathematics Computing student at 
+                        the University of Cabuyao with a strong emphasis on quality and a passion for software development. 
+                        I am strongly driven to take on new challenges and improve 
+                        my abilities in order to thrive in the field of artificial intelligence and contribute to the growth of intelligent systems.
+                        I am pursuing first year college, course is Bachelor of Science in Information Technology (BSIT) and 
+                        i just developed simple application in android studion using kotling + java language named Task Tracker,
+                         and im willing to learn more about programming, web developing and many more.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <img src="brush-icon.png" alt="Brush Icon" class="service-icon"> <!-- Custom Web Design icon -->
+                        <div class="text">Web Design</div>
+                        <p>
+                            Web design involves creating the visual layout and aesthetic appeal of websites, focusing on elements such as color schemes, typography, and user interface design.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="computer-icon.png" alt="Computer Icon" class="service-icon"> <!-- Custom Web Developing icon -->
+                        <div class="text">Web Developing</div>
+                        <p>Web development involves coding and programming the functional aspects of websites, including server-side scripting, database management, and client-side scripting, to ensure interactivity and functionality on the web.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="phone-icon.png" alt="Phone Icon" class="service-icon"> <!-- Custom Apps Developing icon -->
+                        <div class="text">Apps Developing</div>
+                        <p>App development involves designing and building software applications for mobile devices or desktop computers, encompassing aspects like coding, testing, and deployment, tailored to specific platforms like iOS or Android.</p>
+                    </div>
+                </div>     
+               </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="section">
+        <div class="content">
+            <h2>My Work</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" autocomplete="off" name="name" class="input" placeholder="Your Name" required>
+                <input type="text" autocomplete="off" name="email" class="input" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>  
+    
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
